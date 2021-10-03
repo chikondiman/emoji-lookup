@@ -1,5 +1,9 @@
 
-import './App.css';
+import React, { PureComponent } from "react";
+import Header from "./Header";
+import SearchInput from "./SearchInput";
+import EmojiResults from "./EmojiResults";
+import filterEmoji from "./filterEmoji";
 
 function App() {
   return (
